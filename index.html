@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat Application UI</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Chats</h2>
+        </div>
+
+        <div class="search">
+
+            <i class="fa-solid fa-search"></i>
+
+            <input
+            type="text"
+            placeholder="Search conversation">
+
+        </div>
+
+        <div class="chat-list">
+
+        </div>
+
+    </aside>
+
+    <!-- Chat Area -->
+
+    <main class="chat">
+
+        <div class="chat-header">
+
+            <div class="profile">
+
+                <img src="https://i.pravatar.cc/150?img=32">
+
+                <div>
+
+                    <h3>Sophia Collins</h3>
+
+                    <span>Online</span>
+
+                </div>
+
+            </div>
+
+            <div class="icons">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <i class="fa-solid fa-video"></i>
+
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+
+            </div>
+
+        </div>
+
+        <div class="messages" id="messages">
+
+        </div>
+
+        <div class="typing">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+        <div class="input-area">
+
+            <button>
+
+                <i class="fa-regular fa-face-smile"></i>
+
+            </button>
+
+            <button>
+
+                <i class="fa-solid fa-paperclip"></i>
+
+            </button>
+
+            <input
+            type="text"
+            placeholder="Type a message...">
+
+            <button class="send">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
