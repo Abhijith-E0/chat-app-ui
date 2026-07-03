@@ -28,11 +28,9 @@ This project showcases a modern messaging interface using **dummy chat data** to
 
 ## Screenshots
 
-![Chat Application UI](./images/Screenshot1.png)
+![Chat Application UI](./image/Screenshot1.png)
 
-![Chat List](./images/Screenshot2.png)
-
-![Responsive Chat UI](./images/Screenshot3.png)
+![Chat List](./image/Screenshot2.png)
 
 ---
 
@@ -46,7 +44,7 @@ This project showcases a modern messaging interface using **dummy chat data** to
 
 ### Live Demo
 
-**Live Link:** https://abhijith-e0.github.io/chat-application-ui/
+**Live Link:** https://abhijith-e0.github.io/chat-app-ui/
 
 ---
 
